@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-family: "Jost";
+    padding: 2rem;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo img {
+    height: 2rem;
+    width: auto;
+}
+
+.search .container {
+    display: flex;
+    justify-content: center;
+}
+
+.search .content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.search form {
+    width: 50%;
+}
+
+.search input[type=text] {
+    width: 80%;
+    height: 2rem;
+    border-radius: 2%;
+    border: none;
+    color: rgb(36, 36, 36);
+    padding-left: 1rem;
+}
+
+.search input[type=submit] {
+    height: 2rem;
+    width: 18%;
+    border-radius: 2%;
+    border: none;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    padding: 0.5rem;
+}
+
+.movie .content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.movie img {
+    display: block;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.movie li {
+    text-decoration: none;
+}
+
+/* .movie-details {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding: 1rem;
+}
+
+.movie-details .movie-title {
+    display: inline-block;
+    color: red;
+} */
