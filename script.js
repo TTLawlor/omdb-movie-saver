@@ -84,7 +84,6 @@ function displayMovieList(movie, userSearched) {
             <h2 class="movie-title">${movie.Title}</h2>
             <div class="card-content">
                 <div class="movie-details">
-                    <h3 class="username">Username: </h3>
                     <ul class="details">
                         <li class="year">Year: ${movie.Year}</li>
                         <li class="rating">Rating: ${movie.imdbRating}</li>
