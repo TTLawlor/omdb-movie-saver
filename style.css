@@ -8,7 +8,9 @@ body {
     background-color: rgb(36, 36, 36);
     color: white;
     font-family: "Jost";
-    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .logo {
@@ -26,6 +28,7 @@ body {
 .search .container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .search .content {
@@ -35,8 +38,13 @@ body {
 
 }
 
+.search .option {
+    text-align: center;
+}
+
 .search form {
     width: 50%;
+    padding: 2rem;
 }
 
 .search input[type=text] {
@@ -77,14 +85,49 @@ ul {
     text-decoration: none;
 }
 
-/* .movie-details {
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    padding: 1rem;
+.movie-list a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
 }
 
-.movie-details .movie-title {
+.movie-list a:hover {
+    background-color: black;
+}
+
+.card-container {
+    padding: 0rem 1rem;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-title {
     display: inline-block;
-    color: red;
-} */
+    width: 100%;
+    text-align: center;
+}
+.movie-plot {
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+footer {
+    z-index: -2;
+    background-color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin-top: auto;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    color: rgb(36, 36, 36);
+}
